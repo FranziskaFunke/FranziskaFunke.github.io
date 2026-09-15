@@ -23,7 +23,7 @@ tagline: "LSE Fellow in the Social Sciences of Sustainability"
 <hr class="hero-divider">
 
 
-I am an environmental economist working at the intersection of climate policy, inequality, and behavioural political economy. My research assesses the **fairness, effectiveness, and public acceptability of climate policy**. I focus on consumer-facing sectors, where people bear the policy costs directly and are required to change behaviours and investment decisions, often under vastly unequal circumstances.
+I am an environmental economist studying the **fairness, effectiveness, and public acceptability of climate policy**. My research focuses on consumer-facing sectors, where people bear policy costs directly and are required to change behaviours and household-level investments, often under vastly unequal circumstances.
 
 One strand of my work examines the design and **behavioural political economy of market-based instruments**, such as [**carbon pricing**](https://ssrn.com/abstract=5147710) and [**taxes on animal-based products**](https://doi.org/10.1086/721078).
 
