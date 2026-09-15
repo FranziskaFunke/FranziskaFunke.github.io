@@ -27,7 +27,7 @@ I am an environmental economist studying the **fairness, effectiveness, and publ
 
 One strand of my work examines the design and **behavioural political economy of market-based instruments**, such as [**carbon pricing**](https://ssrn.com/abstract=5147710) and [**taxes on animal-based products**](https://doi.org/10.1086/721078).
 
-My next research agenda turns to the **distributional consequences of unequal access to climate-friendly substitutes** (e.g., heat pumps, electric vehicles, public transport, meat alternatives). I am exploring "[**equal opportunity to decarbonize**](https://ssrn.com/abstract=5518719)" as a welfare-economic criterion for climate policy fairness, extending the existing literature on vertical and horizontal equity.
+My next research agenda turns to the **distributional consequences of unequal access to climate-friendly substitutes** (e.g., heat pumps, electric vehicles, public transport, meat alternatives). I am planning to explore "[**equal opportunity to decarbonize**](https://ssrn.com/abstract=5518719)" as a welfare-economic criterion for climate policy fairness, and look at implications for the effective and fair targeting of subsidies and compensation measures.
 
 Methodologically, I work with survey experiments and household-level microdata, and draw on theories and concepts from public economics, welfare economics, and philosophy.
 
