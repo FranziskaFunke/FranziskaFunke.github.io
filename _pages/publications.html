@@ -8,20 +8,6 @@ permalink: /publications/
 <p class="research-subtitle">Fairness, effectiveness, and public acceptability of climate policy, with a focus on carbon pricing and consumer-facing decarbonisation.</p>
 <hr class="research-header-divider">
 
-{% assign pubs = site.publications | where: "category","manuscripts" | sort: "date" | reverse %}
-{% if pubs.size > 0 %}
-<h2 class="research-section">Peer-reviewed publications</h2>
-{% for pub in pubs %}
-<div class="pub-row">
-  <p class="pub-title">{{ pub.title }}</p>
-  {% if pub.authors %}<p class="pub-authors">{{ pub.authors }}</p>{% endif %}
-  <p class="pub-meta">{{ pub.venue_short }}, {{ pub.year_short }}</p>
-  {% if pub.abstract %}<p class="pub-abstract">{{ pub.abstract }}</p>{% endif %}
-  {% if pub.paperurl %}<p class="pub-link"><a href="{{ pub.paperurl }}" target="_blank">{{ pub.link_label }} &rarr;</a></p>{% endif %}
-</div>
-{% endfor %}
-{% endif %}
-
 {% assign wps = site.publications | where: "category","workingpapers" | sort: "date" | reverse %}
 {% if wps.size > 0 %}
 <h2 class="research-section">Working papers</h2>
@@ -31,6 +17,7 @@ permalink: /publications/
   {% if pub.authors %}<p class="pub-authors">{{ pub.authors }}</p>{% endif %}
   <p class="pub-meta">{{ pub.venue_short }}, {{ pub.year_short }}</p>
   {% if pub.abstract %}<p class="pub-abstract">{{ pub.abstract }}</p>{% endif %}
+  {% if pub.note %}<p class="pub-note">{{ pub.note }}</p>{% endif %}
   {% if pub.paperurl %}<p class="pub-link"><a href="{{ pub.paperurl }}" target="_blank">{{ pub.link_label }} &rarr;</a></p>{% endif %}
 </div>
 {% endfor %}
@@ -45,7 +32,30 @@ permalink: /publications/
   {% if pub.authors %}<p class="pub-authors">{{ pub.authors }}</p>{% endif %}
   <p class="pub-meta">{{ pub.venue_short }}, {{ pub.year_short }}</p>
   {% if pub.abstract %}<p class="pub-abstract">{{ pub.abstract }}</p>{% endif %}
+  {% if pub.note %}<p class="pub-note">{{ pub.note }}</p>{% endif %}
   {% if pub.paperurl %}<p class="pub-link"><a href="{{ pub.paperurl }}" target="_blank">{{ pub.link_label }} &rarr;</a></p>{% endif %}
 </div>
 {% endfor %}
 {% endif %}
+
+{% assign pubs = site.publications | where: "category","manuscripts" | sort: "date" | reverse %}
+{% if pubs.size > 0 %}
+<h2 class="research-section">Peer-reviewed publications</h2>
+{% for pub in pubs %}
+<div class="pub-row">
+  <p class="pub-title">{{ pub.title }}</p>
+  {% if pub.authors %}<p class="pub-authors">{{ pub.authors }}</p>{% endif %}
+  <p class="pub-meta">{{ pub.venue_short }}, {{ pub.year_short }}</p>
+  {% if pub.abstract %}<p class="pub-abstract">{{ pub.abstract }}</p>{% endif %}
+  {% if pub.note %}<p class="pub-note">{{ pub.note }}</p>{% endif %}
+  {% if pub.paperurl %}<p class="pub-link"><a href="{{ pub.paperurl }}" target="_blank">{{ pub.link_label }} &rarr;</a></p>{% endif %}
+</div>
+{% endfor %}
+{% endif %}
+
+<h2 class="research-section">Dissertation</h2>
+<div class="pub-row">
+  <p class="pub-title">Prices and Perceptions — The Behavioural Political Economy of Climate Policy</p>
+  <p class="pub-meta">PhD Dissertation, Technical University Berlin, 2026</p>
+  <p class="pub-link"><a href="https://depositonce.tu-berlin.de/bitstreams/1f850cd3-1f6f-46ef-a828-8edd3dc8cdd3/download" target="_blank">DepositOnce &rarr;</a></p>
+</div>

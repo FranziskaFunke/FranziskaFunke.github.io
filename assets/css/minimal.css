@@ -136,6 +136,8 @@ body.minimal-theme {
 .pub-authors { font-style: italic; color: #6a6558; font-size: 15px; margin: 0 0 6px; }
 .pub-meta { font-size: 14px; color: #8a8478; margin: 0 0 14px; }
 .pub-abstract { font-size: 15px; color: #4a4640; margin: 0 0 14px; line-height: 1.6; }
+.pub-note { font-size: 14px; color: #8a5a3a; font-style: italic; margin: 0 0 14px; line-height: 1.5; }
+.pub-award { font-size: 14px; color: #8a5a3a; font-style: italic; margin: 0 0 14px; line-height: 1.5; }
 .pub-link a {
   font-size: 14px;
   font-weight: 600;

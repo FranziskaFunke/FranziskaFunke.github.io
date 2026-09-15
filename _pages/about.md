@@ -22,11 +22,11 @@ tagline: "LSE Fellow in the Social Sciences of Sustainability"
 
 <hr class="hero-divider">
 
-I research the **fairness, effectiveness, and public acceptability of climate policy**, with a particular focus on consumer-facing sectors, where people bear the direct costs of climate policy and are required to act as agents of change in their roles as consumers, investors, and voting citizens.
+I research the fairness, effectiveness, and public acceptability of climate policy, with a particular focus on consumer-facing sectors, where people bear the direct costs of climate policy and are required to act as agents of change in their roles as consumers, investors, and voting citizens.
 
-One strand of my work examines the design and **behavioural political economy of market-based instruments**, such as [**carbon pricing**](https://ssrn.com/abstract=5147710) and [**taxes on animal-based products**](https://doi.org/10.1086/721078).
+One strand of my work examines the design and **behavioural political economy** of market-based instruments, such as [carbon pricing](https://ssrn.com/abstract=5147710) and [taxes on animal-based products](https://doi.org/10.1086/721078).
 
-My next research agenda turns to the distributional consequences of **unequal access to climate-friendly substitutes** (e.g., heat pumps, electric vehicles, public transport, meat alternatives). I am developing "[**equal opportunity to decarbonize**](https://ssrn.com/abstract=5518719)" as a welfare-economic criterion for climate policy fairness, extending the existing literature on vertical and horizontal equity.
+My next research agenda turns to the distributional consequences of unequal access to climate-friendly substitutes (e.g., heat pumps, electric vehicles, public transport, meat alternatives). I am developing "[**equal opportunity to decarbonize**](https://ssrn.com/abstract=5518719)" as a welfare-economic criterion for climate policy fairness, extending the existing literature on vertical and horizontal equity.
 
 Methodologically, I work with survey experiments and household-level microdata, and draw on theories and concepts from public economics, welfare economics, and philosophy.
 

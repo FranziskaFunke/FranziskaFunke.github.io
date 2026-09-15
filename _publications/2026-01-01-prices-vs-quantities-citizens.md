@@ -1,10 +1,10 @@
 ---
 title: "Prices vs. Quantities from a Citizen's Perspective"
 collection: publications
-category: workinprogress
+category: workingpapers
 permalink: /publication/2026-prices-vs-quantities-citizens
 excerpt: 'Working paper.'
-date: 2026-01-01
+date: 2026-01-02
 authors: 'with Théo Konc, Linus Mattauch, Michael Pahle, Antonia Schwarz, and Stephan Sommer'
 venue_short: 'Working paper, SSRN'
 year_short: '2026'
