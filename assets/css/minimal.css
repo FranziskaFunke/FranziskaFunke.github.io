@@ -1,30 +1,33 @@
-body.minimal-theme {
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,400&display=swap');
+
+html, body {
   background: #f5efe4;
+  margin: 0;
+  width: 100%;
+}
+body.minimal-theme {
   color: #2b2b28;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-  max-width: 760px;
-  margin: 0 auto;
-  padding: 0 24px;
   line-height: 1.6;
   font-size: 17px;
 }
+.minimal-wrap {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
 .minimal-nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: baseline;
   flex-wrap: wrap;
   padding: 28px 0 14px;
   border-bottom: 1px solid #ddd6c8;
   font-size: 15px;
 }
-.minimal-nav__name {
-  font-weight: 600;
-  font-size: 16px;
-  color: #2b2b28;
-  text-decoration: none;
-}
 .minimal-nav__links a {
-  margin-left: 18px;
+  margin-left: 22px;
   color: #5c5648;
   text-decoration: none;
 }
@@ -46,7 +49,8 @@ body.minimal-theme {
   flex-shrink: 0;
 }
 .hero-text h1 {
-  font-size: 30px;
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 34px;
   font-weight: 700;
   margin: 0 0 10px;
   line-height: 1.2;
@@ -58,6 +62,7 @@ body.minimal-theme {
   line-height: 1.55;
 }
 .hero-text .affiliations div { margin-bottom: 2px; }
+.hero-text .affiliations strong { font-weight: 700; color: #2b2b28; }
 .hero-links a {
   margin-right: 16px;
   font-size: 15px;
@@ -65,18 +70,6 @@ body.minimal-theme {
   text-decoration: none;
 }
 .hero-links a:hover { text-decoration: underline; }
-.hero-links a.icon-link {
-  margin-right: 0;
-  color: #5c5648;
-}
-.hero-links a.icon-link:hover { text-decoration: none; opacity: 0.7; }
-
-.minimal-nav__links a.icon-link {
-  margin-left: 16px;
-  color: #5c5648;
-  display: inline-flex;
-  align-items: center;
-}
 
 .minimal-content p { margin: 0 0 18px; font-size: 16px; }
 .minimal-content h2 { font-size: 20px; font-weight: 700; margin: 36px 0 14px; }
@@ -90,9 +83,10 @@ body.minimal-theme {
   clear: both;
 }
 
-.pub-entry { margin-bottom: 24px; }
+.pub-entry { margin-bottom: 28px; }
 .pub-title { font-size: 17px; font-weight: 700; margin: 0 0 4px; }
 .pub-meta { font-size: 15px; color: #4a4640; margin: 0 0 4px; }
+.pub-abstract { font-size: 15px; color: #5c5648; margin: 0 0 6px; line-height: 1.55; }
 .pub-link a { font-size: 14px; color: #8a5a3a; text-decoration: none; }
 .pub-link a:hover { text-decoration: underline; }
 

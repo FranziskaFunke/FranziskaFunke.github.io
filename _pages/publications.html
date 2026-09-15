@@ -11,6 +11,7 @@ permalink: /publications/
 <div class="pub-entry">
   <p class="pub-title">{{ pub.title }}</p>
   <p class="pub-meta">{{ pub.citation }}</p>
+  {% if pub.abstract %}<p class="pub-abstract">{{ pub.abstract }}</p>{% endif %}
   {% if pub.paperurl %}<p class="pub-link"><a href="{{ pub.paperurl }}" target="_blank">Paper</a></p>{% endif %}
 </div>
 {% endfor %}
@@ -22,6 +23,7 @@ permalink: /publications/
 <div class="pub-entry">
   <p class="pub-title">{{ pub.title }}</p>
   <p class="pub-meta">{{ pub.citation }}</p>
+  {% if pub.abstract %}<p class="pub-abstract">{{ pub.abstract }}</p>{% endif %}
   {% if pub.paperurl %}<p class="pub-link"><a href="{{ pub.paperurl }}" target="_blank">Paper</a></p>{% endif %}
 </div>
 {% endfor %}

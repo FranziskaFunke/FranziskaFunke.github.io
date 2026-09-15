@@ -8,15 +8,13 @@
 </head>
 <body class="minimal-theme">
 
+<div class="minimal-wrap">
+
 <nav class="minimal-nav">
-  <a href="{{ '/' | relative_url }}" class="minimal-nav__name">{{ site.author.name }} <em>&mdash; {{ page.tagline | default: site.author.bio }}</em></a>
   <div class="minimal-nav__links">
     <a href="{{ '/' | relative_url }}">Home</a>
     <a href="{{ '/publications/' | relative_url }}">Research</a>
     <a href="{{ '/files/CV.pdf' | relative_url }}">CV</a>
-    <a href="mailto:{{ site.author.email }}" aria-label="Email" class="icon-link">
-      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="vertical-align:-2px"><path d="M4 4h16v16H4z"/><path d="M4 6l8 7 8-7"/></svg>
-    </a>
   </div>
 </nav>
 
@@ -27,6 +25,8 @@
 <footer class="minimal-footer">
   &copy; {{ 'now' | date: "%Y" }} {{ site.author.name }} &middot; {{ site.author.location }}
 </footer>
+
+</div>
 
 </body>
 </html>
