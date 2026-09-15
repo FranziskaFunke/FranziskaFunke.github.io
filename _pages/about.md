@@ -11,7 +11,7 @@ tagline: "LSE Fellow in the Social Sciences of Sustainability"
     <h1>Dr. Franziska Funke</h1>
     <div class="affiliations">
       <div><strong>LSE Fellow</strong></div>
-      <div>Global School of Sustainability, London School of Economics and Political Science</div>
+      <div>Global School of Sustainability, London School of Economics</div>
       <div>Guest Researcher, Potsdam Institute for Climate Impact Research (PIK)</div>
     </div>
     <div class="hero-links">
@@ -20,13 +20,14 @@ tagline: "LSE Fellow in the Social Sciences of Sustainability"
   </div>
 </div>
 
+<hr class="hero-divider">
+
 I research the fairness, effectiveness, and public acceptability of climate policy, with a particular focus on consumer-facing sectors, where people bear the direct costs of climate policy and are required to act as agents of change in their roles as consumers, investors, and voting citizens.
 
 One strand of my work examines the design and behavioural political economy of market-based instruments, such as carbon pricing and taxes on animal-based products.
 
-My next research agenda turns to the distributional consequences of unequal access to climate-friendly substitutes (e.g., heat pumps, electric vehicles, public transport, meat alternatives). I am developing "equal opportunity to decarbonize" as a welfare-economic criterion for climate policy fairness, extending the existing literature on vertical and horizontal equity.
+My next research agenda turns to the distributional consequences of unequal access to climate-friendly substitutes (e.g., heat pumps, electric vehicles, public transport, meat alternatives). I am developing “equal opportunity to decarbonize” as a welfare-economic criterion for climate policy fairness, extending the existing literature on vertical and horizontal equity.
 
 Methodologically, I work with survey experiments and household-level microdata, and draw on theories and concepts from public economics, welfare economics, and philosophy.
 
 I completed my PhD in Economics at TU Berlin in January 2026. I also hold an MSc in Philosophy and Public Policy from the London School of Economics and a BA in Political Science and Economics from Münster University.
-

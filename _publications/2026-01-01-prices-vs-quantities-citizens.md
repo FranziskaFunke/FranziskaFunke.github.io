@@ -5,6 +5,10 @@ category: workingpapers
 permalink: /publication/2026-prices-vs-quantities-citizens
 excerpt: 'Working paper.'
 date: 2026-01-01
+authors: 'with Théo Konc, Linus Mattauch, Michael Pahle, Antonia Schwarz, and Stephan Sommer'
+venue_short: 'Working paper, SSRN'
+year_short: '2026'
+link_label: 'SSRN'
 venue: 'SSRN Working Paper'
 paperurl: 'https://ssrn.com/abstract=5147710'
 abstract: 'Using a stated-choice experiment across seven European countries, this paper studies how citizens perceive carbon taxes versus emissions trading systems, and how trust, worldviews, and beliefs about the responsibilities of governments, consumers, and firms shape public support for each instrument.'

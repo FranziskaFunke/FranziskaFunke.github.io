@@ -4,26 +4,35 @@ title: "Research"
 permalink: /publications/
 ---
 
-## Peer-reviewed publications
+<p class="research-eyebrow">Research</p>
+<h1 class="research-title">Research</h1>
+<p class="research-subtitle">Fairness, effectiveness, and public acceptability of climate policy, with a focus on carbon pricing and consumer-facing decarbonisation.</p>
+<hr class="research-header-divider">
 
 {% assign pubs = site.publications | where: "category","manuscripts" | sort: "date" | reverse %}
 {% for pub in pubs %}
-<div class="pub-entry">
-  <p class="pub-title">{{ pub.title }}</p>
-  <p class="pub-meta">{{ pub.citation }}</p>
-  {% if pub.abstract %}<p class="pub-abstract">{{ pub.abstract }}</p>{% endif %}
-  {% if pub.paperurl %}<p class="pub-link"><a href="{{ pub.paperurl }}" target="_blank">Paper</a></p>{% endif %}
+<div class="pub-row">
+  <div class="pub-year">{{ pub.year_short }}</div>
+  <div>
+    <p class="pub-title">{{ pub.title }}</p>
+    {% if pub.authors %}<p class="pub-authors">{{ pub.authors }}</p>{% endif %}
+    <p class="pub-meta">{{ pub.venue_short }}</p>
+    {% if pub.abstract %}<p class="pub-abstract">{{ pub.abstract }}</p>{% endif %}
+    {% if pub.paperurl %}<p class="pub-link"><a href="{{ pub.paperurl }}" target="_blank">{{ pub.link_label }} &rarr;</a></p>{% endif %}
+  </div>
 </div>
 {% endfor %}
 
-## Working papers
-
 {% assign wps = site.publications | where: "category","workingpapers" | sort: "date" | reverse %}
 {% for pub in wps %}
-<div class="pub-entry">
-  <p class="pub-title">{{ pub.title }}</p>
-  <p class="pub-meta">{{ pub.citation }}</p>
-  {% if pub.abstract %}<p class="pub-abstract">{{ pub.abstract }}</p>{% endif %}
-  {% if pub.paperurl %}<p class="pub-link"><a href="{{ pub.paperurl }}" target="_blank">Paper</a></p>{% endif %}
+<div class="pub-row">
+  <div class="pub-year">{{ pub.year_short }}</div>
+  <div>
+    <p class="pub-title">{{ pub.title }}</p>
+    {% if pub.authors %}<p class="pub-authors">{{ pub.authors }}</p>{% endif %}
+    <p class="pub-meta">{{ pub.venue_short }}</p>
+    {% if pub.abstract %}<p class="pub-abstract">{{ pub.abstract }}</p>{% endif %}
+    {% if pub.paperurl %}<p class="pub-link"><a href="{{ pub.paperurl }}" target="_blank">{{ pub.link_label }} &rarr;</a></p>{% endif %}
+  </div>
 </div>
 {% endfor %}
