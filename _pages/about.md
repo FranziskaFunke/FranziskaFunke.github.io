@@ -15,17 +15,19 @@ tagline: "LSE Fellow in the Social Sciences of Sustainability"
       <div>Guest Researcher, Potsdam Institute for Climate Impact Research (PIK)</div>
     </div>
     <div class="hero-links">
-      <a href="https://scholar.google.co.uk/citations?user=3_CcN9EAAAAJ&hl=en" target="_blank">Google Scholar</a><a href="https://www.linkedin.com/in/franziskafunke/" target="_blank">LinkedIn</a><a href="mailto:f.funke@lse.ac.uk">Email</a><a href="{{ '/files/CV.pdf' | relative_url }}">CV</a>
+      <a href="https://scholar.google.co.uk/citations?user=3_CcN9EAAAAJ&hl=en" target="_blank">Google Scholar</a><a href="https://www.linkedin.com/in/franziskafunke/" target="_blank">LinkedIn</a><a href="mailto:f.funke@lse.ac.uk">Email</a>
     </div>
   </div>
 </div>
 
 <hr class="hero-divider">
 
-I research the fairness and public acceptability of climate policy, with a focus on carbon pricing and the transition away from fossil-fuel heating. I completed my PhD in Economics (summa cum laude) at TU Berlin in January 2026, supervised by **Linus Mattauch**.
+I research the fairness, effectiveness, and public acceptability of climate policy, with a particular focus on consumer-facing sectors, where people bear the direct costs of climate policy and are required to act as agents of change in their roles as consumers, investors, and voting citizens.
 
-My current work runs a survey experiment on carbon pricing rebates and the German heating transition, and develops "**equal access to climate-friendly substitutes**" as a fairness framing for evaluating climate policy — examining how unequal access to low-carbon alternatives shapes both the distributional and political-economy dimensions of decarbonisation.
+One strand of my work examines the design and **behavioural political economy** of market-based instruments, such as [carbon pricing](https://ssrn.com/abstract=5147710) and [taxes on animal-based products](https://doi.org/10.1086/721078).
 
-My earlier research examined the design and political feasibility of meat taxes and carbon pricing, including work published in *Nature Climate Change* and *Nature Food*.
+My next research agenda turns to the distributional consequences of unequal access to climate-friendly substitutes (e.g., heat pumps, electric vehicles, public transport, meat alternatives). I am developing "[**equal opportunity to decarbonize**](https://ssrn.com/abstract=5518719)" as a welfare-economic criterion for climate policy fairness, extending the existing literature on vertical and horizontal equity.
 
-See the [Research](/publications/) page for the full list.
+Methodologically, I work with survey experiments and household-level microdata, and draw on theories and concepts from public economics, welfare economics, and philosophy.
+
+I completed my PhD in Economics at Technical University Berlin in January 2026. I also hold an MSc in Philosophy and Public Policy from the London School of Economics and a BA in Political Science and Economics from Münster University.

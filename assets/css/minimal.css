@@ -87,6 +87,12 @@ body.minimal-theme {
 }
 
 .minimal-content p { margin: 0 0 18px; font-size: 16px; }
+.minimal-content p a {
+  color: #8a5a3a;
+  text-decoration: underline;
+  text-decoration-color: #c9a582;
+}
+.minimal-content p a:hover { text-decoration-color: #8a5a3a; }
 .minimal-content h2 { font-size: 20px; font-weight: 600; margin: 36px 0 14px; }
 .minimal-content strong { font-weight: 600; }
 
