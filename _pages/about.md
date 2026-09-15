@@ -1,29 +1,31 @@
 ---
 permalink: /
+layout: minimal
 title: "Franziska Funke"
-author_profile: true
-redirect_from:
-  - /about/
-  - /about.html
+tagline: "LSE Fellow in the Social Sciences of Sustainability"
 ---
 
-I am an LSE Fellow in the Social Sciences of Sustainability at the [Global School of Sustainability](https://www.lse.ac.uk/granthaminstitute/), London School of Economics and Political Science, and a Guest Researcher at the Potsdam Institute for Climate Impact Research (PIK). I completed my PhD in Economics (summa cum laude) at Technical University Berlin in January 2026, supervised by [Linus Mattauch](https://www.mattauch.net/) <!-- TODO: confirm link -->.
+<div class="hero">
+  <img src="{{ '/images/profile.jpg' | relative_url }}" alt="Franziska Funke" class="hero-photo">
+  <div class="hero-text">
+    <h1>Franziska Funke</h1>
+    <div class="affiliations">
+      <div>LSE Fellow in the Social Sciences of Sustainability</div>
+      <div>Global School of Sustainability, London School of Economics</div>
+      <div>Guest Researcher, Potsdam Institute for Climate Impact Research (PIK)</div>
+    </div>
+    <div class="hero-links">
+      <a href="{{ '/files/CV.pdf' | relative_url }}">CV</a><a href="https://scholar.google.co.uk/citations?user=3_CcN9EAAAAJ&hl=en" target="_blank">Google Scholar</a><a href="https://www.linkedin.com/in/franziskafunke/" target="_blank">LinkedIn</a><a href="mailto:f.funke@lse.ac.uk" aria-label="Email" class="icon-link"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="vertical-align:-3px"><path d="M4 4h16v16H4z"/><path d="M4 6l8 7 8-7"/></svg></a>
+    </div>
+  </div>
+</div>
 
-My research sits at the intersection of climate policy design and public acceptability. I am currently running a survey experiment on carbon pricing rebates and the German heating transition, and developing "equal access to climate-friendly substitutes" as a fairness framing for evaluating climate policy. My earlier work has focused on the economics and political feasibility of meat taxes and carbon pricing.
+## About me
 
-<!-- TODO: feel free to add/edit — this is a starting draft, not final copy -->
+I research the fairness and public acceptability of climate policy, with a focus on carbon pricing and the transition away from fossil-fuel heating. I completed my PhD in Economics (summa cum laude) at TU Berlin in January 2026, supervised by **Linus Mattauch**.
 
-## Research
+My current work runs a survey experiment on carbon pricing rebates and the German heating transition, and develops "**equal access to climate-friendly substitutes**" as a fairness framing for evaluating climate policy — examining how unequal access to low-carbon alternatives shapes both the distributional and political-economy dimensions of decarbonisation.
 
-My work combines applied welfare economics with questions of political feasibility and fairness in climate policy:
-
-1. **Fairness and acceptability of carbon pricing** — I study how the design of carbon pricing and revenue recycling (e.g. rebates) shapes public support, including in the context of Germany's heating transition.
-2. **Equal access to climate-friendly substitutes** — I develop this concept as a fairness lens for climate policy, examining how unequal access to low-carbon alternatives affects the distributional and political economy of decarbonisation.
-3. **Pricing of high-emission goods** — my earlier work examined the design and feasibility of meat taxes and carbon pricing under economic constraints such as high interest rates.
-
-## Selected Publications
-
-* Funke, F., Mattauch, L., Douenne, T., Fabre, A., & Stiglitz, J. E. (2024). Supporting carbon pricing when interest rates are higher. *Nature Climate Change*, 14, 665-667.
-* Klenert, D., Funke, F., & Cai, M. (2023). Meat taxes in Europe can be designed to avoid overburdening low-income consumers. *Nature Food*, 4(10), 894-901.
+My earlier research examined the design and political feasibility of meat taxes and carbon pricing, including work published in *Nature Climate Change* and *Nature Food*.
 
 See the [Publications](/publications/) page for the full list.

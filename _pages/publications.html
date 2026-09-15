@@ -1,36 +1,27 @@
 ---
-layout: archive
-title: "Publications"
+layout: minimal
+title: "Research"
 permalink: /publications/
-author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+## Peer-reviewed publications
 
-{% include base_path %}
+{% assign pubs = site.publications | where: "category","manuscripts" | sort: "date" | reverse %}
+{% for pub in pubs %}
+<div class="pub-entry">
+  <p class="pub-title">{{ pub.title }}</p>
+  <p class="pub-meta">{{ pub.citation }}</p>
+  {% if pub.paperurl %}<p class="pub-link"><a href="{{ pub.paperurl }}" target="_blank">Paper</a></p>{% endif %}
+</div>
+{% endfor %}
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+## Working papers
 
-
-
+{% assign wps = site.publications | where: "category","workingpapers" | sort: "date" | reverse %}
+{% for pub in wps %}
+<div class="pub-entry">
+  <p class="pub-title">{{ pub.title }}</p>
+  <p class="pub-meta">{{ pub.citation }}</p>
+  {% if pub.paperurl %}<p class="pub-link"><a href="{{ pub.paperurl }}" target="_blank">Paper</a></p>{% endif %}
+</div>
+{% endfor %}
