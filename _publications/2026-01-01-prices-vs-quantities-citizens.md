@@ -1,7 +1,7 @@
 ---
 title: "Prices vs. Quantities from a Citizen's Perspective"
 collection: publications
-category: workingpapers
+category: workinprogress
 permalink: /publication/2026-prices-vs-quantities-citizens
 excerpt: 'Working paper.'
 date: 2026-01-01

@@ -11,8 +11,11 @@
 <div class="minimal-wrap">
 
 <nav class="minimal-nav">
+  <a href="{{ '/' | relative_url }}" class="minimal-nav__home">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 11l9-8 9 8"/><path d="M5 10v10h14V10"/></svg>
+    Home
+  </a>
   <div class="minimal-nav__links">
-    <a href="{{ '/' | relative_url }}">Home</a>
     <a href="{{ '/publications/' | relative_url }}">Research</a>
     <a href="{{ '/files/CV.pdf' | relative_url }}">CV</a>
   </div>

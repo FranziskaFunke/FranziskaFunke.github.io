@@ -22,12 +22,10 @@ tagline: "LSE Fellow in the Social Sciences of Sustainability"
 
 <hr class="hero-divider">
 
-I research the fairness, effectiveness, and public acceptability of climate policy, with a particular focus on consumer-facing sectors, where people bear the direct costs of climate policy and are required to act as agents of change in their roles as consumers, investors, and voting citizens.
+I research the fairness and public acceptability of climate policy, with a focus on carbon pricing and the transition away from fossil-fuel heating. I completed my PhD in Economics (summa cum laude) at TU Berlin in January 2026, supervised by **Linus Mattauch**.
 
-One strand of my work examines the design and behavioural political economy of market-based instruments, such as carbon pricing and taxes on animal-based products.
+My current work runs a survey experiment on carbon pricing rebates and the German heating transition, and develops "**equal access to climate-friendly substitutes**" as a fairness framing for evaluating climate policy — examining how unequal access to low-carbon alternatives shapes both the distributional and political-economy dimensions of decarbonisation.
 
-My next research agenda turns to the distributional consequences of unequal access to climate-friendly substitutes (e.g., heat pumps, electric vehicles, public transport, meat alternatives). I am developing “equal opportunity to decarbonize” as a welfare-economic criterion for climate policy fairness, extending the existing literature on vertical and horizontal equity.
+My earlier research examined the design and political feasibility of meat taxes and carbon pricing, including work published in *Nature Climate Change* and *Nature Food*.
 
-Methodologically, I work with survey experiments and household-level microdata, and draw on theories and concepts from public economics, welfare economics, and philosophy.
-
-I completed my PhD in Economics at TU Berlin in January 2026. I also hold an MSc in Philosophy and Public Policy from the London School of Economics and a BA in Political Science and Economics from Münster University.
+See the [Research](/publications/) page for the full list.

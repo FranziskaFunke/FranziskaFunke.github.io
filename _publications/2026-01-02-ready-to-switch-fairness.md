@@ -1,7 +1,7 @@
 ---
 title: "Ready To Switch? Fairness Implications from Heterogeneous Access to Climate-Friendly Substitutes"
 collection: publications
-category: workingpapers
+category: workinprogress
 permalink: /publication/2026-ready-to-switch-fairness
 excerpt: 'Working paper.'
 date: 2026-01-02
