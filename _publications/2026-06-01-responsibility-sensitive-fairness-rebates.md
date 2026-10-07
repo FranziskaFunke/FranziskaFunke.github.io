@@ -1,5 +1,5 @@
 ---
-title: "Responsibility-Sensitive Fairness and Carbon Pricing Rebates"
+title: "Fairness and Carbon Pricing Rebates"
 collection: publications
 category: workinprogress
 permalink: /publication/2026-responsibility-sensitive-fairness-rebates
